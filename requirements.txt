@@ -1,0 +1,14 @@
+# Core data manipulation
+pandas>=1.5.0
+
+# PDF parsing
+PyMuPDF>=1.22.0   # 'fitz' module is provided by PyMuPDF
+
+# GUI and image handling
+Pillow>=9.0.0     # Used for logo display in tkinter
+
+# Excel support
+openpyxl>=3.0.10  # Required for reading/writing .xlsx with pandas
+
+# Optional: Only needed if you want tqdm-style progress (not currently used)
+# tqdm
